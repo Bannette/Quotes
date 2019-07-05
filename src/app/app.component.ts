@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote } from './quote';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quotes:string[];
-
-  constructor(){
-    this.quotes = ['Dont let what you can not interfer with interfer with you', 'Succesful and unsuccesful dont vary in ability they vary in their desires to to things', 'Strive for progress not perfection','Theres no shortcuts to any place worth going']
-  } 
+  quotes: Quote []= [
+    {id:1, name:'Dont let what you can not interfer with interfer with you'},
+    {id:2, name:'Succesful and unsuccesful dont vary in ability they vary in their desires to do things'},
+    {id:3, name:'Strive for progress not perfection'},
+    {id:4, name:'Theres no shortcuts to any place worth going'}
+  ];
 }
