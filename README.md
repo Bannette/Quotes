@@ -14,7 +14,7 @@ This an application of quotes, where the user is able to read quotes,add quotes,
 * CSS
 * ANGULAR CLI
 # LIVE LINK
-
+https://bannette.github.io/Quotes/
 #BUGS
 The most voted quote is not functioning working on it for easy clarification to the user.
 
