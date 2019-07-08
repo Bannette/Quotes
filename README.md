@@ -1,7 +1,7 @@
 # PROJECT NAME
-QUOTES
+## QUOTES
 # AUTHOR
-BANNETTE ALOO
+## BANNETTE ALOO
 # DESCRIPTION OF THE PROJECT
 This an application of quotes, where the user is able to read quotes,add quotes,delete,like and unlike and able to see the most voted quotes.
 # PROJECT SETUP INSTRUCTION
@@ -15,7 +15,8 @@ This an application of quotes, where the user is able to read quotes,add quotes,
 * ANGULAR CLI
 # LIVE LINK
 https://bannette.github.io/Quotes/
-#BUGS
+
+# BUGS
 The most voted quote is not functioning working on it for easy clarification to the user.
 
 # CONTACT INFORMATION
