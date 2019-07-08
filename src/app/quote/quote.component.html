@@ -1,12 +1,13 @@
 <div class="container">
+  <div class="header">
   <h1>INSPIRATIONAL QUOTES</h1>
   <hr>
   <div>
     <p>Sometimes we feel so low and just need someone to speak something to us, we just need to hear something motivational that will make us ginger,here are some of the things you would love to read at that moment</p>
   </div>
-
+  </div>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-8">
 
       <div *ngFor='let quote of quotes;let i = index'>
         <div>
@@ -20,10 +21,11 @@
         </div>
       </div>
       </div>
-      <div class="col-md-6 form">
+
+      <div class="col-md-8 form">
         <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
       </div>
-    </div>
+  </div>
 
     <p *ngIf='quotes.length > 5'>I Hope my quotes inspire you</p>
   </div>
