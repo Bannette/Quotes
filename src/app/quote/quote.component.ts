@@ -9,10 +9,10 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = 
   [
-    new Quote(1,'Dont let what you can not interfer with interfer with you' , 'Find an online version and watch merlin find his son',new Date(2019,3,14)),
-    new Quote(2,'Succesful and unsuccesful dont vary in ability they vary in their desires to do things', 'they dont vary at all',new Date(2019,6,9)),
-    new Quote(3,'Strive for progress not perfection','perfection',new Date(2019,1,12)),
-    new Quote(4,'Theres no shortcuts to any place worth going','Pupper likes expensive snacks',new Date(2019,0,18)),
+    new Quote(1,'Dont let what you can not interfer with interfer with you' , 'things happen for a reason and season',new Date(2019,3,14)),
+    new Quote(2,'Succesful and unsuccesful dont vary in ability they vary in their desires to do things', 'your desire in doing things is what matters',new Date(2019,6,9)),
+    new Quote(3,'Strive for progress not perfection','their is no perfection in success',new Date(2019,1,12)),
+    new Quote(4,'Theres no shortcuts to any place worth going','doing things rightfully matters',new Date(2019,0,18)),
     
   ];
   addNewQuote(quote){
